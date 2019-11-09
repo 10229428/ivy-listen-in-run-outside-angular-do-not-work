@@ -34,7 +34,7 @@ describe('AppComponent', () => {
     expect(component.handlerFromNgZone).toHaveBeenCalledWith(event);
   });
 
-  it(`should listen click wrapped with runOutsideAngular`, () => {
+  fit(`should listen click wrapped with runOutsideAngular`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const debugElement = fixture.debugElement;
     const component = fixture.componentInstance;
